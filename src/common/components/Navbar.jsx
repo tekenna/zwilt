@@ -68,7 +68,7 @@ const Navbar = () => {
           Join Now
         </span>
       </div>
-      <div className="">
+      <div className="md:hidden block">
         {!open && (
           <GiHamburgerMenu
             onClick={toggle}
