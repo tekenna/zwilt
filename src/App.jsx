@@ -10,7 +10,7 @@ import Footer from "./common/components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen w-full pt-[36px] flex flex-col items-center">
+    <div className="min-h-screen overflow-hidden w-full pt-[36px] flex flex-col items-center">
       <div className="w-full px-[16px] flex justify-center">
         <Header />
       </div>

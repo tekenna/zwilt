@@ -119,13 +119,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full sm:h-[41px] sm:py-0 py-2 relative px-[16px]">
+        <div className="w-full sm:h-[41px] sm:py-0 py-[16px] relative px-[16px]">
           <img
             src={stroke_}
             className="w-full  absolute top-0 left-0 right-0"
             alt=""
           />
-          <div className="max-w-[1300px] w-full h-full flex sm:flex-row flex-col  m-auto sm:items-center justify-between">
+          <div className="max-w-[1300px] w-full h-full flex sm:flex-row flex-col sm:gap-0 gap-[4px]  m-auto sm:items-center justify-between">
             <span className="text-[#FFFFFF] text-[16px] font-[500]">
               All rights reserved by Zwilt
             </span>

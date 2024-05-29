@@ -64,26 +64,26 @@ const Header = () => {
               Design and Creative
             </span>
           </div>
-          <div className="w-full grid grid-cols-12 gap-[10px] py-[23px] ">
-            <div className="col-span-4 flex flex-col m-auto gap-[16px]">
+          <div className="w-full grid grid-cols-12 gap-[15px] py-[23px] ">
+            <div className="sm:col-span-4 col-span-6 flex flex-col m-auto gap-[16px] overflow-hidden">
               <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[400]">
                 Python Developer
               </span>
               <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[400]">
                 Shopify Developer
               </span>
-              <span className="text-[#202229] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[500]">
+              <span className="text-[#202229] sm:text-[16px] truncate whitespace-nowrap flex gap-[1.5px] text-[12px] font-[500]">
                 MERN <span className="sm:flex hidden">Stack</span> Developer
               </span>
-              <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[400]">
+              <span className="text-[#959595] sm:text-[16px] overflow-hidden truncate whitespace-nowrap text-[12px] font-[400]">
                 Full Stack Developer
               </span>
             </div>
-            <div className="col-span-4 flex flex-col m-auto gap-[16px]">
+            <div className="sm:col-span-4 col-span-6 flex flex-col m-auto gap-[16px] ">
               <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[400]">
                 Data Scientist
               </span>
-              <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[400]">
+              <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap pr-2 text-[12px] font-[400]">
                 Front End Developer
               </span>
               <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[400]">
@@ -93,7 +93,7 @@ const Header = () => {
                 Python Developer
               </span>
             </div>
-            <div className="col-span-4 flex flex-col m-auto gap-[16px] overflow-hidden">
+            <div className="sm:col-span-4 col-span-6 flex flex-col m-auto gap-[16px] ">
               <span className="text-[#959595] sm:text-[16px] truncate whitespace-nowrap text-[12px] font-[400]">
                 Shopify Developer
               </span>
