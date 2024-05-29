@@ -31,7 +31,7 @@ const FAQ = () => {
                         : "opacity-1 flex md:w-fit w-[50%] md:min-w-[230px]"
                     } ${
                       n === 4 && "bg-[#E8E8E8] "
-                    }  border-r-[#D6D6D6]  justify-center items-center text-[#202229] text-[22px] font-[600]`}
+                    }  border-r-[#D6D6D6]  justify-center items-center text-[#202229] sm:text-[22px] text-[18px] font-[600]`}
                   >
                     General
                   </span>
@@ -41,7 +41,7 @@ const FAQ = () => {
                       a.sub && a.sub !== ""
                         ? "opacity-1 flex  md:w-[230px] w-[50%]  md:min-w-[230px"
                         : "opacity-0 md:flex hidden md:min-w-[230px] "
-                    }  border-r-[#D6D6D6]  justify-center flex items-center text-[#202229] text-[22px] font-[600]`}
+                    }  border-r-[#D6D6D6]  justify-center flex items-center text-[#202229] sm:text-[22px] text-[18px] font-[600]`}
                   >
                     {a.sub}
                   </span>
@@ -50,7 +50,7 @@ const FAQ = () => {
                 <span
                   className={`text-[#202229] md:max-w-[55%] px-[16px]  w-full ${
                     a.title === "" ? "flex" : "md:flex hidden"
-                  } opacity-[0.8] text-[22px] font-[400] leading-[32px]`}
+                  } opacity-[0.8] sm:text-[22px] text-[18px] font-[400] sm:leading-[32px]`}
                 >
                   {a.desc}
                 </span>
